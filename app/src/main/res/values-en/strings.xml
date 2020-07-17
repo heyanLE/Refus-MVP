@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="theme_switch">Select Theme</string>
+    <string name="language_switch">Select Language</string>
+
+    <string name="go">GO</string>
+
+    <string name="most_searched">Most searched</string>
+    <string name="search_history">Search history</string>
+    <string name="clear_history">Clear history</string>
+
+    <array name="image_search">
+        <item>Local</item>
+        <item>Camera</item>
+    </array>
+
+    <string name="search">Search</string>
+    <string name="text_search">Text search</string>
+    <string name="image_search">Image search</string>
+    <string name="voice_search">Voice search</string>
+
+    <string name="setting">Setting</string>
+    <string name="theme">Theme</string>
+    <string name="language">Language</string>
+
+    <string name="result_title">name：%1$s</string>
+    <string name="result_confidence">confidence：%1$s</string>
+    <string name="result_ps">PS：%1$s</string>
+
+    <string name="long_press_recording">long press to recording</string>
+    <string name="let_go_search">let go to search</string>
+
+    <string name="no_audio_permission">Sorry, wo don\'t have the audio permission.</string>
+
+    <array name="language">
+        <item>自动 - auto</item>
+        <item>简体中文</item>
+        <item>English</item>
+    </array>
+
+    <!--NulActivity-->
+    <string name="something_wrong">There are something wrong ……</string>
+    <string name="phone_msg">Message</string>
+    <string name="phone_model">Model：%1$s</string>
+    <string name="android_version">Android：%1$s</string>
+    <string name="error_log">Error Log</string>
+</resources>

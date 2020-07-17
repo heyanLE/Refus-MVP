@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="toolbarTheme" parent="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="colorControlNormal">@android:color/white</item>
+    </style>
+
+
+
+    <style name="BaseLightTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorWindowsBackground">#FFF5F5F5</item>
+        <item name="colorTextHigh">#CC000000</item>
+        <item name="colorTextMedium">#77000000</item>
+        <item name="colorTextHint">#38000000</item>
+        <item name="colorProminent">#000000</item>
+        <item name="colorComply">#FFFFFF</item>
+
+        <item name="colorTabTextNormal">#86FFFFFF</item>
+        <item name="colorTabTextSelect">#FFFFFFFF</item>
+
+    </style>
+
+    <style name="BaseDarkTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorWindowsBackground">#FF202020</item>
+        <item name="colorTextHigh">#85FFFFFF</item>
+        <item name="colorTextMedium">#65FFFFFF</item>
+        <item name="colorTextHint">#45FFFFFF</item>
+        <item name="colorProminent">#FFFFFF</item>
+        <item name="colorComply">#000000</item>
+        <item name="colorTabTextNormal">#86FFFFFF</item>
+        <item name="colorTabTextSelect">#FFFFFFFF</item>
+
+
+    </style>
+
+    <style name="Theme_Blue" parent="BaseLightTheme">
+        <item name="colorPrimary">@color/themeBlue</item>
+        <item name="colorPrimaryDark">@color/themeBlue</item>
+        <item name="colorAccent">@color/themeBlue</item>
+    </style>
+
+    <style name="Theme_Pink" parent="BaseLightTheme">
+        <item name="colorPrimary">@color/themePink</item>
+        <item name="colorPrimaryDark">@color/themePink</item>
+        <item name="colorAccent">@color/themePink</item>
+    </style>
+
+    <style name="Theme_Red" parent="BaseLightTheme">
+        <item name="colorPrimary">@color/themeRed</item>
+        <item name="colorPrimaryDark">@color/themeRed</item>
+        <item name="colorAccent">@color/themeRed</item>
+    </style>
+
+    <style name="Theme_Yellow" parent="BaseLightTheme">
+        <item name="colorPrimary">@color/themeYellow</item>
+        <item name="colorPrimaryDark">@color/themeYellow</item>
+        <item name="colorAccent">@color/themeYellow</item>
+    </style>
+
+    <style name="Theme_Green" parent="BaseLightTheme">
+        <item name="colorPrimary">@color/themeGreen</item>
+        <item name="colorPrimaryDark">@color/themeGreen</item>
+        <item name="colorAccent">@color/themeGreen</item>
+    </style>
+
+    <style name="Theme_Purple" parent="BaseLightTheme">
+        <item name="colorPrimary">@color/themePurple</item>
+        <item name="colorPrimaryDark">@color/themePurple</item>
+        <item name="colorAccent">@color/themePurple</item>
+    </style>
+
+    <style name="Theme_Black" parent="BaseLightTheme">
+        <item name="colorPrimary">@color/themeBlack</item>
+        <item name="colorPrimaryDark">@color/themeBlack</item>
+        <item name="colorAccent">@color/themeBlack</item>
+    </style>
+
+    <style name="Theme_Gray" parent="BaseLightTheme">
+        <item name="colorPrimary">@color/themeGray</item>
+        <item name="colorPrimaryDark">@color/themeGray</item>
+        <item name="colorAccent">@color/themeGray</item>
+    </style>
+
+    <style name="Theme_Dark" parent="BaseDarkTheme">
+        <item name="colorPrimary">@color/themeDark</item>
+        <item name="colorPrimaryDark">@color/themeDark</item>
+        <item name="colorAccent">@color/themeDark</item>
+    </style>
+
+</resources>

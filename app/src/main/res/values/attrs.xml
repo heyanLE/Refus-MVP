@@ -1,0 +1,18 @@
+<resources>
+    <attr name="colorPrimary" format="color"/>                  <!--主色调-->
+    <attr name="colorPrimaryDark" format="color"/>              <!--主色调暗-->
+    <attr name="colorAccent" format="color"/>                   <!--强调色-->
+    <attr name="colorTextHigh" format="color"/>                 <!--一级字体色-->
+    <attr name="colorTextMedium" format="color"/>               <!--二级字体色-->
+    <attr name="colorTextHint" format="color"/>                 <!--三级字体色-->
+    <attr name="colorWindowsBackground" format="color"/>        <!--背景色-->
+
+
+    <attr name="colorProminent" format="color"/>                <!--突出色 夜间主题为白 其他为黑-->
+
+    <attr name="colorComply" format="color"/>                   <!--顺应色色 夜间主题为黑 其他为黑白-->
+
+
+    <attr name="colorTabTextNormal" format="color"/>
+    <attr name="colorTabTextSelect" format="color"/>
+</resources>

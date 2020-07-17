@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="themeBlue">#2094f1</color>
+    <color name="themePink">#f97197</color>
+    <color name="themeRed">#f24235</color>
+    <color name="themeYellow">#fcbf07</color>
+    <color name="themeGreen">#89c14a</color>
+    <color name="themePurple">#9a27af</color>
+    <color name="themeBlack">#000000</color>
+    <color name="themeGray">#607d8a</color>
+    <color name="themeDark">#212121</color>
+
+    <color name="ripple">#4D000000</color>
+</resources>

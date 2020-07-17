@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">Refus</string>
+    <string name="theme_switch">主题切换</string>
+    <string name="language_switch">语言切换</string>
+
+    <string name="go">搜索</string>
+
+    <string name="most_searched">热搜</string>
+    <string name="search_history">搜索历史</string>
+    <string name="clear_history">清空历史</string>
+
+    <array name="image_search">
+        <item>本地图片</item>
+        <item>拍照</item>
+    </array>
+
+    <string name="search">搜索</string>
+    <string name="text_search">文字搜索</string>
+    <string name="image_search">图片搜索</string>
+    <string name="voice_search">语音搜索</string>
+
+    <string name="setting">配置</string>
+    <string name="theme">主题</string>
+    <string name="language">语言</string>
+
+    <string name="result_title">垃圾名：%1$s</string>
+    <string name="result_confidence">准确度：%1$s</string>
+    <string name="result_ps">投放建议：%1$s</string>
+
+    <string name="no_audio_permission">没有录音权限哦！</string>
+    
+    <string name="long_press_recording">长按录音</string>
+    <string name="let_go_search">松手结束</string>
+
+    <array name="language">
+        <item>自动 - auto</item>
+        <item>简体中文</item>
+        <item>English</item>
+    </array>
+
+    <!--NulActivity-->
+    <string name="something_wrong">哎呀，怎么坏了……</string>
+    <string name="phone_msg">手机信息</string>
+    <string name="phone_model">手机型号：%1$s</string>
+    <string name="android_version">安卓版本：%1$s</string>
+    <string name="error_log">报错日志</string>
+
+</resources>

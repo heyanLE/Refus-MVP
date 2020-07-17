@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?android:attr/selectableItemBackground">
+
+    <TextView
+        android:layout_centerVertical="true"
+        android:textColor="?attr/colorTextHigh"
+        android:id="@+id/tv_type"
+        android:layout_alignParentEnd="true"
+        android:textSize="20sp"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:gravity="center"
+        android:text="湿垃圾"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <LinearLayout
+        android:layout_marginBottom="10dp"
+        android:id="@+id/linear"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:textColor="?attr/colorTextHigh"
+            android:textSize="15sp"
+            android:id="@+id/tv_title"
+            android:layout_marginStart="8dp"
+            android:text="名称：坚果炒货"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:layout_below="@id/tv_title"
+            android:textColor="?attr/colorTextHigh"
+            android:textSize="15sp"
+            android:id="@+id/tv_confidence"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="8dp"
+            android:text="准确性：100%"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:layout_marginEnd="150dp"
+            android:layout_below="@id/tv_confidence"
+            android:textColor="?attr/colorTextHigh"
+            android:textSize="15sp"
+            android:id="@+id/tv_ps"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="8dp"
+            android:text="投放建议："
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+
+    <View
+        android:layout_marginStart="8dp"
+        android:background="?attr/colorTextHint"
+        android:layout_width="match_parent"
+        android:layout_height="2px"/>
+
+    <View
+        android:layout_below="@id/linear"
+        android:layout_marginStart="8dp"
+        android:background="?attr/colorTextHint"
+        android:layout_width="match_parent"
+        android:layout_height="2px"/>
+
+
+</RelativeLayout>
